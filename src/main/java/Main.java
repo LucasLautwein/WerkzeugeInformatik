@@ -4,11 +4,12 @@ public class Main {
         Factory factory = new Factory();
 
         Car car1 = new Car("red", "BMW", 5);
-        Car car2 = new Car("yellow", "Audi", 3);
+        Car car2 = new Car("black", "Audi", 3);
         Car car3 = new Car("blue", "VW", 3);
 
         factory.buildCar(car1);
         factory.buildCar(car2);
+	factory.buildCar(car3);
     }
 }
 
